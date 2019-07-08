@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TSR-1" urn="urn:adsk.eagle:footprint:10712083/1">
+<description>&lt;b&gt;TSR-1-24120&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-2.54" y="0" drill="0.78" diameter="1.28"/>
+<pad name="2" x="0" y="0" drill="0.78" diameter="1.28"/>
+<pad name="3" x="2.54" y="0" drill="0.78" diameter="1.28"/>
+<wire x1="-5.85" y1="5.6" x2="5.85" y2="5.6" width="0.254" layer="51"/>
+<wire x1="5.85" y1="5.6" x2="5.85" y2="-2" width="0.254" layer="51"/>
+<wire x1="5.85" y1="-2" x2="-5.85" y2="-2" width="0.254" layer="51"/>
+<wire x1="-5.85" y1="-2" x2="-5.85" y2="5.6" width="0.254" layer="51"/>
+<wire x1="-5.85" y1="-2" x2="5.85" y2="-2" width="0.254" layer="21"/>
+<wire x1="5.85" y1="-2" x2="5.85" y2="5.6" width="0.254" layer="21"/>
+<wire x1="5.85" y1="5.6" x2="-5.85" y2="5.6" width="0.254" layer="21"/>
+<wire x1="-5.85" y1="5.6" x2="-5.85" y2="-2" width="0.254" layer="21"/>
+<circle x="-2.955" y="-1.363" radius="0.141" width="0.254" layer="25"/>
+<text x="-6.35" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="NMA0512SC" urn="urn:adsk.eagle:footprint:9497820/2">
+<description>&lt;b&gt;NMA0512SC 7SIP&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-7.72" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="2" x="-5.18" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="4" x="-0.1" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="5" x="2.44" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="6" x="4.98" y="1.475" drill="1.15" diameter="1.725"/>
+<text x="-6.35" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9.75" y1="2.7" x2="9.75" y2="2.7" width="0.2" layer="51"/>
+<wire x1="9.75" y1="2.7" x2="9.75" y2="-3.3" width="0.2" layer="51"/>
+<wire x1="9.75" y1="-3.3" x2="-9.75" y2="-3.3" width="0.2" layer="51"/>
+<wire x1="-9.75" y1="-3.3" x2="-9.75" y2="2.7" width="0.2" layer="51"/>
+<wire x1="-9.75" y1="2.7" x2="9.75" y2="2.7" width="0.1" layer="21"/>
+<wire x1="9.75" y1="2.7" x2="9.75" y2="-3.3" width="0.1" layer="21"/>
+<wire x1="9.75" y1="-3.3" x2="-9.75" y2="-3.3" width="0.1" layer="21"/>
+<wire x1="-9.75" y1="-3.3" x2="-9.75" y2="2.7" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="4.3" x2="10.75" y2="4.3" width="0.1" layer="51"/>
+<wire x1="10.75" y1="4.3" x2="10.75" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="10.75" y1="-4.3" x2="-10.75" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-10.75" y1="-4.3" x2="-10.75" y2="4.3" width="0.1" layer="51"/>
+<wire x1="-7.85" y1="3.2" x2="-7.65" y2="3.2" width="0.2" layer="21" curve="-180"/>
+<wire x1="-7.65" y1="3.2" x2="-7.85" y2="3.2" width="0.2" layer="21" curve="-180"/>
+</package>
+<package name="NMK0512SC" urn="urn:adsk.eagle:footprint:9557818/1">
+<description>&lt;b&gt;NMK0512SC 7SIP&lt;/b&gt;&lt;br&gt;</description>
+<pad name="1" x="-7.72" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="2" x="-5.18" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="5" x="2.44" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="6" x="4.98" y="1.475" drill="1.15" diameter="1.725"/>
+<pad name="7" x="7.52" y="1.475" drill="1.15" diameter="1.725"/>
+<text x="-6.35" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9.75" y1="2.7" x2="9.75" y2="2.7" width="0.2" layer="51"/>
+<wire x1="9.75" y1="2.7" x2="9.75" y2="-3.3" width="0.2" layer="51"/>
+<wire x1="9.75" y1="-3.3" x2="-9.75" y2="-3.3" width="0.2" layer="51"/>
+<wire x1="-9.75" y1="-3.3" x2="-9.75" y2="2.7" width="0.2" layer="51"/>
+<wire x1="-9.75" y1="2.7" x2="9.75" y2="2.7" width="0.1" layer="21"/>
+<wire x1="9.75" y1="2.7" x2="9.75" y2="-3.3" width="0.1" layer="21"/>
+<wire x1="9.75" y1="-3.3" x2="-9.75" y2="-3.3" width="0.1" layer="21"/>
+<wire x1="-9.75" y1="-3.3" x2="-9.75" y2="2.7" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="4.3" x2="10.75" y2="4.3" width="0.1" layer="51"/>
+<wire x1="10.75" y1="4.3" x2="10.75" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="10.75" y1="-4.3" x2="-10.75" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-10.75" y1="-4.3" x2="-10.75" y2="4.3" width="0.1" layer="51"/>
+<wire x1="-7.85" y1="3.2" x2="-7.65" y2="3.2" width="0.2" layer="21" curve="-180"/>
+<wire x1="-7.65" y1="3.2" x2="-7.85" y2="3.2" width="0.2" layer="21" curve="-180"/>
+</package>
+<package name="TSR-2" urn="urn:adsk.eagle:footprint:10712084/1">
+<description>&lt;b&gt;TSR-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="4.5" y="-3.89" drill="0.85" diameter="1.35"/>
+<pad name="2" x="7.04" y="-3.89" drill="0.85" diameter="1.35"/>
+<pad name="3" x="9.58" y="-3.89" drill="0.85" diameter="1.35"/>
+<wire x1="0" y1="0" x2="14" y2="0" width="0.254" layer="51"/>
+<wire x1="14" y1="0" x2="14" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="14" y1="-7.5" x2="0" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="0" y1="-7.5" x2="0" y2="0" width="0.254" layer="51"/>
+<wire x1="0" y1="-7.5" x2="0" y2="0" width="0.254" layer="21"/>
+<wire x1="0" y1="0" x2="14" y2="0" width="0.254" layer="21"/>
+<wire x1="14" y1="0" x2="14" y2="-7.5" width="0.254" layer="21"/>
+<wire x1="14" y1="-7.5" x2="0" y2="-7.5" width="0.254" layer="21"/>
+<circle x="4.238" y="-5.166" radius="0.113359375" width="0.254" layer="25"/>
+<text x="0" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-9.271" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:8624733/1">
+<description>&lt;b&gt;DBV (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
+<text x="-2.25" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.25" y="-3.25" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TSR-1" urn="urn:adsk.eagle:package:10712087/1" type="box">
+<description>&lt;b&gt;TSR-1-24120&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="TSR-1"/>
+</packageinstances>
+</package3d>
+<package3d name="NMA0512SC" urn="urn:adsk.eagle:package:9497822/2" type="box">
+<description>&lt;b&gt;NMA0512SC 7SIP&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="NMA0512SC"/>
+</packageinstances>
+</package3d>
+<package3d name="NMK0512SC" urn="urn:adsk.eagle:package:9557819/1" type="box">
+<description>&lt;b&gt;NMK0512SC 7SIP&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="NMK0512SC"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:8624735/1" type="box">
+<description>&lt;b&gt;DBV (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X145-5N"/>
+</packageinstances>
+</package3d>
+<package3d name="TSR-2" urn="urn:adsk.eagle:package:10712088/1" type="box">
+<description>&lt;b&gt;TSR-2&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="TSR-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TSR_1" urn="urn:adsk.eagle:symbol:10712085/1">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+VIN" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="+VOUT" x="30.48" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="NMA/K0509SC" urn="urn:adsk.eagle:symbol:9497821/3">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="3.81" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="3.81" y="-10.16" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+VIN" x="0" y="0" length="middle"/>
+<pin name="-VIN" x="0" y="-2.54" length="middle"/>
+<pin name="-VOUT" x="0" y="-5.08" length="middle"/>
+<pin name="OV" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="+VOUT" x="30.48" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TSR_2" urn="urn:adsk.eagle:symbol:10712086/1">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+VIN" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="+VOUT" x="30.48" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TPS560200DBVT" urn="urn:adsk.eagle:symbol:8624734/2">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="3.81" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="3.81" y="-10.16" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="EN" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="GND" x="30.48" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PH" x="30.48" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="VIN" x="0" y="0" length="middle" direction="pwr"/>
+<pin name="VSENSE" x="0" y="-5.08" length="middle" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TSR_1-SERIES" prefix="T" urn="urn:adsk.eagle:component:10712089/1">
+<description>&lt;b&gt;TRACO POWER TSR 1 Series DC-DC Converter, 1A&lt;/b&gt;&lt;hr /&gt;
+&lt;br /&gt;
+&lt;i&gt;Description: &lt;/i&gt; TRACO POWER TSR 1 Series DC-DC Converter, 1A max output
+&lt;br /&gt;
+&lt;br /&gt;
+- Input voltage: "depends on model"
+&lt;br /&gt;
+- Output voltage: "depends on model"
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Links: &lt;/i&gt;
+&lt;a href="https://www.mouser.se/datasheet/2/687/tsr2-datasheet-911338.pdf"&gt;Datasheet&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</description>
+<gates>
+<gate name="G$1" symbol="TSR_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSR-1">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10712087/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TRACOPOWER - TSR 1-24120 - CONVERTER, DC/DC, 24V/12V, 1A, SIP" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Traco Power" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSR 1-24120" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="495-TSR-1-24120" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=495-TSR-1-24120" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NMA0509SC" prefix="PS" urn="urn:adsk.eagle:component:9497823/4">
+<description>&lt;b&gt;Murata NMA0509SC Isolated DC-DC Converter, 1W&lt;/b&gt;&lt;hr /&gt;
+&lt;br /&gt;
+&lt;i&gt;Description: &lt;/i&gt; Murata NMA0509SC Isolated DC-DC Converter in SIP package. 1W
+&lt;br /&gt;
+&lt;br /&gt;
+- Input voltage: 4.5-5.5V
+&lt;br /&gt;
+- Output voltage: +/-9V dc
+&lt;br /&gt;
+- I/O isolation: 1kV dc
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Links: &lt;/i&gt;
+&lt;a href="http://www.farnell.com/datasheets/2357327.pdf?_ga=2.99385949.236001324.1551687660-368635712.1550490484"&gt;Datasheet&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</description>
+<gates>
+<gate name="G$1" symbol="NMA/K0509SC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NMA0512SC">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="6"/>
+<connect gate="G$1" pin="-VIN" pad="2"/>
+<connect gate="G$1" pin="-VOUT" pad="4"/>
+<connect gate="G$1" pin="OV" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9497822/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Murata Power Solutions 1W Isolated DC-DC Converter, Vin 4.5  5.5 V dc, Vout +/-9V dc, I/O isolation 1kV dc" constant="no"/>
+<attribute name="HEIGHT" value="10mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NMA0509SC" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="580-NMA0509SC" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=580-NMA0509SC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSR_2-SERIES" prefix="U" urn="urn:adsk.eagle:component:10712090/1">
+<description>&lt;b&gt;TRACO POWER TSR 2 Series DC-DC Converter, 2A&lt;/b&gt;&lt;hr /&gt;
+&lt;br /&gt;
+&lt;i&gt;Description: &lt;/i&gt; TRACO POWER TSR 2 Series DC-DC Converter, 2A max output
+&lt;br /&gt;
+&lt;br /&gt;
+- Input voltage: "depends on model"
+&lt;br /&gt;
+- Output voltage: "depends on model"
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Links: &lt;/i&gt;
+&lt;a href="https://www.mouser.se/datasheet/2/687/tsr1-537631.pdf"&gt;Datasheet&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</description>
+<gates>
+<gate name="G$1" symbol="TSR_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSR-2">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10712088/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Non-Isolated DC/DC Converters 15-36Vin 12V 2A SIP switching regulator" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Traco Power" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSR 2-24120" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="495-TSR2-24120" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=495-TSR2-24120" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS560200DBVT" prefix="PS" urn="urn:adsk.eagle:component:8624736/2">
+<description>&lt;b&gt;TPS560200 Adjustable Buck converter&lt;/b&gt;&lt;hr /&gt;
+&lt;br /&gt;
+&lt;i&gt;Description: &lt;/i&gt; TPS560200 Adjustable Buck converter in SOT-23 package
+&lt;br /&gt;
+&lt;br /&gt;
+- Input voltage: 4.5-17V
+&lt;br /&gt;
+- Output voltage: 0.8-6.5V
+&lt;br /&gt;
+- Output current: 500mA
+&lt;br /&gt;
+- Switching freq: 600kHz
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Links: &lt;/i&gt;
+&lt;a href="http://www.ti.com/lit/gpn/tps5602000"&gt;Datasheet&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS560200DBVT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="PH" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VSENSE" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8624735/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="17V Input, 500mA Synchronous Step-Down Regulator in SOT-23 with Advanced Eco-Mode&amp;#153;" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS560200DBVT" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS560200DBVT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NMKXXXXSC" prefix="PS" urn="urn:adsk.eagle:component:9557820/3">
+<description>&lt;b&gt;Murata NMAXXXXSC Isolated DC-DC Converter, 2W&lt;/b&gt;&lt;hr /&gt;
+&lt;br /&gt;
+&lt;i&gt;Description: &lt;/i&gt; Murata NMA0509SC Isolated DC-DC Converter in SIP package. 2W
+&lt;br /&gt;
+&lt;br /&gt;
+- Input voltage: "depends on model"
+&lt;br /&gt;
+- Output voltage: "depends on model"
+&lt;br /&gt;
+- I/O isolation: 1kV dc
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Links: &lt;/i&gt;
+&lt;a href="http://www.farnell.com/datasheets/2625592.pdf?_gl=1*fiwnxt*_ga*MTE0MDYyNzY2LjE1NDc0OTQyOTg.*_gid*NzI3MjM1MjcyLjE1NTE5NzQzMjE.*_gac*Q2owS0NRaUFuTlhpQlJDb0FSSXNBSmVfMWNvcW9yeDFpU0U5N2tjaXBaNDFyUmNGZm45dTJrMDZYMVI0SG5vQzBya1lsbGc0UzlKa29rY2FBdFpNRUFMd193Y0IuMTU0OTEyNzU5OA.."&gt;Datasheet&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</description>
+<gates>
+<gate name="G$1" symbol="NMA/K0509SC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NMK0512SC">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="7"/>
+<connect gate="G$1" pin="-VIN" pad="2"/>
+<connect gate="G$1" pin="-VOUT" pad="5"/>
+<connect gate="G$1" pin="OV" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9557819/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
