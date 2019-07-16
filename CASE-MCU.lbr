@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.3.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4787,9 +4788,81 @@
 <wire x1="68.58" y1="-43.18" x2="68.58" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="68.58" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="STM32F103X8XX">
+<pin name="VBAT" x="-30.48" y="38.1" length="middle" direction="pwr"/>
+<pin name="PC13-TAMPER-RTC" x="-30.48" y="35.56" length="middle"/>
+<pin name="PC14-OSC32_IN" x="-30.48" y="33.02" length="middle"/>
+<pin name="PC15-OSC32_OUT" x="-30.48" y="30.48" length="middle"/>
+<pin name="PD0-OSC_IN" x="-30.48" y="27.94" length="middle"/>
+<pin name="PD1-OSC_OUT" x="-30.48" y="25.4" length="middle"/>
+<pin name="NRST" x="-30.48" y="22.86" length="middle"/>
+<pin name="PC0" x="-30.48" y="20.32" length="middle"/>
+<pin name="PC1" x="-30.48" y="17.78" length="middle"/>
+<pin name="PC2" x="-30.48" y="15.24" length="middle"/>
+<pin name="PC3" x="-30.48" y="12.7" length="middle"/>
+<pin name="VSSA" x="-30.48" y="10.16" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-30.48" y="7.62" length="middle" direction="pwr"/>
+<pin name="PA0-WKUP" x="-30.48" y="5.08" length="middle"/>
+<pin name="PA1" x="-30.48" y="2.54" length="middle"/>
+<pin name="PA2" x="-30.48" y="0" length="middle"/>
+<pin name="PA3" x="-30.48" y="-2.54" length="middle"/>
+<pin name="VSS_4" x="-30.48" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VDD_4" x="-30.48" y="-7.62" length="middle" direction="pwr"/>
+<pin name="PA4" x="-30.48" y="-10.16" length="middle"/>
+<pin name="PA5" x="-30.48" y="-12.7" length="middle"/>
+<pin name="PA6" x="-30.48" y="-15.24" length="middle"/>
+<pin name="PA7" x="-30.48" y="-17.78" length="middle"/>
+<pin name="PC4" x="-30.48" y="-20.32" length="middle"/>
+<pin name="PC5" x="-30.48" y="-22.86" length="middle"/>
+<pin name="PB0" x="-30.48" y="-25.4" length="middle"/>
+<pin name="PB1" x="-30.48" y="-27.94" length="middle"/>
+<pin name="PB2/BOOT1" x="-30.48" y="-30.48" length="middle"/>
+<pin name="PB10" x="-30.48" y="-33.02" length="middle"/>
+<pin name="PB11" x="-30.48" y="-35.56" length="middle"/>
+<pin name="VSS_1" x="-30.48" y="-38.1" length="middle" direction="pwr"/>
+<pin name="VDD_1" x="-30.48" y="-40.64" length="middle" direction="pwr"/>
+<pin name="PB12" x="30.48" y="-40.64" length="middle" rot="R180"/>
+<pin name="PB13" x="30.48" y="-38.1" length="middle" rot="R180"/>
+<pin name="PB14" x="30.48" y="-35.56" length="middle" rot="R180"/>
+<pin name="PB15" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<pin name="PC6" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<pin name="PC7" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="PC8" x="30.48" y="-25.4" length="middle" rot="R180"/>
+<pin name="PC9" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="PA8" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="PA9" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA10" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA11" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA12" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA13/SWDIO" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="VSS_2" x="30.48" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD_2" x="30.48" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA14/SWCLK" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="PA15" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="PC10" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="PC11" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="PC12" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="PD2" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="PB3/SWO" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="PB4" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="PB5" x="30.48" y="20.32" length="middle" rot="R180"/>
+<pin name="PB6" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="PB7" x="30.48" y="25.4" length="middle" rot="R180"/>
+<pin name="BOOT0" x="30.48" y="27.94" length="middle" direction="in" rot="R180"/>
+<pin name="PB8" x="30.48" y="30.48" length="middle" rot="R180"/>
+<pin name="PB9" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="VSS_3" x="30.48" y="35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD_3" x="30.48" y="38.1" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-25.4" y1="43.18" x2="-25.4" y2="-45.72" width="0.1524" layer="94"/>
+<wire x1="-25.4" y1="-45.72" x2="25.4" y2="-45.72" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-45.72" x2="25.4" y2="43.18" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="94"/>
+<text x="-5.3594" y="47.2186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.0546" y="44.6786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATTINY84A-PU" prefix="U" urn="urn:adsk.eagle:component:7882961/1">
+<deviceset name="ATTINY84A-PU" urn="urn:adsk.eagle:component:7882961/1" prefix="U">
 <description>&lt;b&gt;ATTINY84A-PU, DIP-14 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ATTINY84A-PU from Microship ATtiny series (AVR), DIP-14 package
@@ -4848,7 +4921,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAMD21G18A-AUT" prefix="IC" urn="urn:adsk.eagle:component:7882957/1">
+<deviceset name="ATSAMD21G18A-AUT" urn="urn:adsk.eagle:component:7882957/1" prefix="IC">
 <description>&lt;b&gt;SAMD21G18A-AUT, TQFP-48 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; SAMD21G18A-AUT from Microship SAM D2 series (Arm Cortex M0+), TQFP-48 package
@@ -4947,7 +5020,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY84A-SSF" prefix="IC" urn="urn:adsk.eagle:component:7882956/1">
+<deviceset name="ATTINY84A-SSF" urn="urn:adsk.eagle:component:7882956/1" prefix="IC">
 <description>&lt;b&gt;ATTINY84A-SSF, SOIC-14 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ATTINY84A-SSF from Microship ATtiny series (AVR), SOIC-14 package
@@ -5006,7 +5079,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328-PU" prefix="U" urn="urn:adsk.eagle:component:7882962/1">
+<deviceset name="ATMEGA328-PU" urn="urn:adsk.eagle:component:7882962/1" prefix="U">
 <description>&lt;b&gt;ATMEGA328-PU, DIP-28 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ATMEGA328-PU from Microship ATMEGA series (AVR), DIP-28 package
@@ -5081,7 +5154,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328PB-AU" prefix="IC" urn="urn:adsk.eagle:component:7882958/1">
+<deviceset name="ATMEGA328PB-AU" urn="urn:adsk.eagle:component:7882958/1" prefix="IC">
 <description>&lt;b&gt;ATMEGA328PB-AU, TQFP-32 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ATMEGA328PB-AU from Microship ATMEGA series (AVR), TQFP-32 package
@@ -5162,7 +5235,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F722ZE" prefix="U" urn="urn:adsk.eagle:component:7834262/5">
+<deviceset name="STM32F722ZE" urn="urn:adsk.eagle:component:7834262/5" prefix="U">
 <description>&lt;b&gt;STM32F722ZE, LQFP-144&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32F722ZE from STMicroelectronics F7 series (Arm Cortex M7), LQFP-144 package
@@ -5352,7 +5425,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F446ZE" prefix="U" urn="urn:adsk.eagle:component:7834258/5">
+<deviceset name="STM32F446ZE" urn="urn:adsk.eagle:component:7834258/5" prefix="U">
 <description>&lt;b&gt;STM32F446ZE, LQFP-144&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32F446ZE from STMicroelectronics F4 series (Arm Cortex M4), LQFP-144 package
@@ -5541,7 +5614,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F042K6" prefix="U" urn="urn:adsk.eagle:component:7834264/6">
+<deviceset name="STM32F042K6" urn="urn:adsk.eagle:component:7834264/6" prefix="U">
 <description>&lt;b&gt;STM32F042K6, LQFP-32&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32F042K6 from STMicroelectronics F0 series (Arm Cortex M0), LQFP-32 package
@@ -5617,7 +5690,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L011K4" prefix="U" urn="urn:adsk.eagle:component:7834261/5">
+<deviceset name="STM32L011K4" urn="urn:adsk.eagle:component:7834261/5" prefix="U">
 <description>&lt;b&gt;STM32L011K4, LQFP-32&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32L011K4 from STMicroelectronics L0 series (Arm Cortex M0+), LQFP-32 package
@@ -5690,7 +5763,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM_NUCLEO-32" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:9470603/1">
+<deviceset name="STM_NUCLEO-32" urn="urn:adsk.eagle:component:9470603/1" prefix="U" uservalue="yes">
 <description>&lt;b&gt;STM Nucleo-32 Boards&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM Nucleo-32 boards. Should fit at least: NUCLEO-F031K6,
@@ -5760,7 +5833,7 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F072RB" prefix="U" urn="urn:adsk.eagle:component:7834263/5">
+<deviceset name="STM32F072RB" urn="urn:adsk.eagle:component:7834263/5" prefix="U">
 <description>&lt;b&gt;STM32F072RB, LQFP-32&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32F072RB from STMicroelectronics F0 series (Arm Cortex M0)LQFP-64 package
@@ -5868,7 +5941,7 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F303K8" prefix="U" urn="urn:adsk.eagle:component:7834259/5">
+<deviceset name="STM32F303K8" urn="urn:adsk.eagle:component:7834259/5" prefix="U">
 <description>&lt;b&gt;STM32F303K8, LQFP-32&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32F303K8 from STMicroelectronics F3 series (Arm Cortex M4), LQFP-32 package
@@ -6034,7 +6107,7 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85-20SU" prefix="U" urn="urn:adsk.eagle:component:7882959/1">
+<deviceset name="ATTINY85-20SU" urn="urn:adsk.eagle:component:7882959/1" prefix="U">
 <description>&lt;b&gt;ATTINY85-20SU, SOIC-8 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ATTINY85-20SU from Microship ATtiny series (AVR), SOIC-8 package
@@ -6087,7 +6160,7 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L073RZ" prefix="U" urn="urn:adsk.eagle:component:7834260/5">
+<deviceset name="STM32L073RZ" urn="urn:adsk.eagle:component:7834260/5" prefix="U">
 <description>&lt;b&gt;STM32L073RZ, LQFP-64&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; STM32L073RZ from STMicroelectronics L0 series (Arm Cortex M0+), LQFP-64 package
@@ -6195,7 +6268,7 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85-20PU" prefix="U" urn="urn:adsk.eagle:component:7882960/1">
+<deviceset name="ATTINY85-20PU" urn="urn:adsk.eagle:component:7882960/1" prefix="U">
 <description>&lt;b&gt;ATTINY85-20PU, DIP-8 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ATTINY85-20PU from Microship ATtiny series (AVR), DIP-8 package
@@ -6248,7 +6321,7 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP-WROOM-02" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:8193844/2">
+<deviceset name="ESP-WROOM-02" urn="urn:adsk.eagle:component:8193844/2" prefix="U" uservalue="yes">
 <description>&lt;b&gt;ESP-WROOM-02 (ESP8266 from Espressif)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; ESP-WROOM-02, an ESP8266 from Espressif in SMD package.
@@ -6300,6 +6373,99 @@ NUCLEO-F042K6, NUCLEO-F301K8, NUCLEO-F303K8, NUCLEO-L011K4, NUCLEOL031K6, NUCLEO
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:8193843/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F103C8T6" prefix="U">
+<description>&lt;b&gt;STM32F103C8T6, LQFP-64&lt;/b&gt;&lt;hr /&gt;
+&lt;br /&gt;
+&lt;i&gt;Description: &lt;/i&gt; STM32F103C8T6 from STMicroelectronics F1 series (Arm Cortex M3), LQFP-64 package 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Links: &lt;/i&gt;
+&lt;a href="https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"&gt;Datasheet&lt;/a&gt;
+
+&lt;a href="https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f1-series/stm32f103/stm32f103c8.html"&gt;Website&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Farnell ord.nr: 1447637&lt;/i&gt;</description>
+<gates>
+<gate name="G$1" symbol="STM32F103X8XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP64-10X10MM">
+<connects>
+<connect gate="G$1" pin="BOOT0" pad="60"/>
+<connect gate="G$1" pin="NRST" pad="7"/>
+<connect gate="G$1" pin="PA0-WKUP" pad="14"/>
+<connect gate="G$1" pin="PA1" pad="15"/>
+<connect gate="G$1" pin="PA10" pad="43"/>
+<connect gate="G$1" pin="PA11" pad="44"/>
+<connect gate="G$1" pin="PA12" pad="45"/>
+<connect gate="G$1" pin="PA13/SWDIO" pad="46"/>
+<connect gate="G$1" pin="PA14/SWCLK" pad="49"/>
+<connect gate="G$1" pin="PA15" pad="50"/>
+<connect gate="G$1" pin="PA2" pad="16"/>
+<connect gate="G$1" pin="PA3" pad="17"/>
+<connect gate="G$1" pin="PA4" pad="20"/>
+<connect gate="G$1" pin="PA5" pad="21"/>
+<connect gate="G$1" pin="PA6" pad="22"/>
+<connect gate="G$1" pin="PA7" pad="23"/>
+<connect gate="G$1" pin="PA8" pad="41"/>
+<connect gate="G$1" pin="PA9" pad="42"/>
+<connect gate="G$1" pin="PB0" pad="26"/>
+<connect gate="G$1" pin="PB1" pad="27"/>
+<connect gate="G$1" pin="PB10" pad="29"/>
+<connect gate="G$1" pin="PB11" pad="30"/>
+<connect gate="G$1" pin="PB12" pad="33"/>
+<connect gate="G$1" pin="PB13" pad="34"/>
+<connect gate="G$1" pin="PB14" pad="35"/>
+<connect gate="G$1" pin="PB15" pad="36"/>
+<connect gate="G$1" pin="PB2/BOOT1" pad="28"/>
+<connect gate="G$1" pin="PB3/SWO" pad="55"/>
+<connect gate="G$1" pin="PB4" pad="56"/>
+<connect gate="G$1" pin="PB5" pad="57"/>
+<connect gate="G$1" pin="PB6" pad="58"/>
+<connect gate="G$1" pin="PB7" pad="59"/>
+<connect gate="G$1" pin="PB8" pad="61"/>
+<connect gate="G$1" pin="PB9" pad="62"/>
+<connect gate="G$1" pin="PC0" pad="8"/>
+<connect gate="G$1" pin="PC1" pad="9"/>
+<connect gate="G$1" pin="PC10" pad="51"/>
+<connect gate="G$1" pin="PC11" pad="52"/>
+<connect gate="G$1" pin="PC12" pad="53"/>
+<connect gate="G$1" pin="PC13-TAMPER-RTC" pad="2"/>
+<connect gate="G$1" pin="PC14-OSC32_IN" pad="3"/>
+<connect gate="G$1" pin="PC15-OSC32_OUT" pad="4"/>
+<connect gate="G$1" pin="PC2" pad="10"/>
+<connect gate="G$1" pin="PC3" pad="11"/>
+<connect gate="G$1" pin="PC4" pad="24"/>
+<connect gate="G$1" pin="PC5" pad="25"/>
+<connect gate="G$1" pin="PC6" pad="37"/>
+<connect gate="G$1" pin="PC7" pad="38"/>
+<connect gate="G$1" pin="PC8" pad="39"/>
+<connect gate="G$1" pin="PC9" pad="40"/>
+<connect gate="G$1" pin="PD0-OSC_IN" pad="5"/>
+<connect gate="G$1" pin="PD1-OSC_OUT" pad="6"/>
+<connect gate="G$1" pin="PD2" pad="54"/>
+<connect gate="G$1" pin="VBAT" pad="1"/>
+<connect gate="G$1" pin="VDDA" pad="13"/>
+<connect gate="G$1" pin="VDD_1" pad="32"/>
+<connect gate="G$1" pin="VDD_2" pad="48"/>
+<connect gate="G$1" pin="VDD_3" pad="64"/>
+<connect gate="G$1" pin="VDD_4" pad="19"/>
+<connect gate="G$1" pin="VSSA" pad="12"/>
+<connect gate="G$1" pin="VSS_1" pad="31"/>
+<connect gate="G$1" pin="VSS_2" pad="47"/>
+<connect gate="G$1" pin="VSS_3" pad="63"/>
+<connect gate="G$1" pin="VSS_4" pad="18"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7834254/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
