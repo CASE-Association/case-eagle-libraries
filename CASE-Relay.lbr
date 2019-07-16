@@ -72,7 +72,7 @@
 </layers>
 <library>
 <packages>
-<package name="AQY280EHA" urn="urn:adsk.eagle:footprint:10711582/1">
+<package name="AQY280EHA" urn="urn:adsk.eagle:footprint:10711582/2">
 <description>&lt;b&gt;Panasonic PhotoMOS RELAYS (AQY280EHA)&lt;/b&gt;
 
 &lt;a href="https://docs-emea.rs-online.com/webdocs/1314/0900766b81314265.pdf"&gt;Datasheet&lt;/a&gt;</description>
@@ -86,6 +86,7 @@
 <wire x1="2.25" y1="3.25" x2="2.5" y2="3.25" width="0.127" layer="21"/>
 <wire x1="2.5" y1="3.25" x2="2.5" y2="-3.25" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-3.25" x2="2.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-2.413" width="0.508" layer="21"/>
 <text x="-3" y="-3.25" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.25" y="-3.25" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -121,7 +122,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="AQY280EHA" urn="urn:adsk.eagle:package:10711584/1" type="box">
+<package3d name="AQY280EHA" urn="urn:adsk.eagle:package:10711584/2" type="box">
 <description>&lt;b&gt;Panasonic PhotoMOS RELAYS (AQY280EHA)&lt;/b&gt;
 
 &lt;a href="https://docs-emea.rs-online.com/webdocs/1314/0900766b81314265.pdf"&gt;Datasheet&lt;/a&gt;</description>
@@ -137,22 +138,6 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="V23079A100XB301" urn="urn:adsk.eagle:symbol:9498982/2">
-<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="3.81" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="3.81" y="-12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="+" x="0" y="0" length="middle"/>
-<pin name="NC_1" x="0" y="-2.54" length="middle"/>
-<pin name="COM_1" x="0" y="-5.08" length="middle"/>
-<pin name="NO_1" x="0" y="-7.62" length="middle"/>
-<pin name="NO_2" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="COM_2" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="NC_2" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="-" x="30.48" y="-7.62" length="middle" rot="R180"/>
-</symbol>
 <symbol name="AQY280EHA" urn="urn:adsk.eagle:symbol:10711583/1">
 <pin name="VCC" x="-10.16" y="2.54" visible="pad" length="short"/>
 <pin name="GND" x="-10.16" y="-2.54" visible="pad" length="short"/>
@@ -191,9 +176,25 @@
 <text x="-7.366" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="V23079A100XB301" urn="urn:adsk.eagle:symbol:9498982/2">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="3.81" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="3.81" y="-12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" length="middle"/>
+<pin name="NC_1" x="0" y="-2.54" length="middle"/>
+<pin name="COM_1" x="0" y="-5.08" length="middle"/>
+<pin name="NO_1" x="0" y="-7.62" length="middle"/>
+<pin name="NO_2" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="COM_2" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC_2" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="-" x="30.48" y="-7.62" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="AQY280EHA" prefix="K" urn="urn:adsk.eagle:component:10711585/1">
+<deviceset name="AQY280EHA" prefix="K" urn="urn:adsk.eagle:component:10711585/2">
 <description>&lt;b&gt;Panasonic AQY280EHA - PhotoMOS Relay, 1.5-5V, 130mA&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;Panasonic AQY280EHA - PhotoMOS Relay, 1.5-5V control voltage, 130mA maximum load current, smd package.
@@ -226,7 +227,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10711584/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10711584/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -234,10 +235,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="V23079A1001B301" prefix="K" urn="urn:adsk.eagle:component:9592881/1">
-<description>&lt;b&gt;V23079-A1001-B301 - DPDT non latch signal relay, 5VDC&lt;/b&gt;&lt;hr /&gt;
+<deviceset name="V23079A1003B301" prefix="K" urn="urn:adsk.eagle:component:9498990/2">
+<description>&lt;b&gt;V23079-A1003-B301 - DPDT non latch signal relay, 12VDC&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
-&lt;i&gt;Description: &lt;/i&gt;V23079-A1003-B301 - DPDT non latch signal relay, through hole, 5VDC, 2A Rated current.
+&lt;i&gt;Description: &lt;/i&gt;V23079-A1003-B301 - DPDT non latch signal relay, through hole, 12VDC, 2A Rated current.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;i&gt;Links: &lt;/i&gt;
@@ -286,10 +287,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="V23079A1003B301" prefix="K" urn="urn:adsk.eagle:component:9498990/2">
-<description>&lt;b&gt;V23079-A1003-B301 - DPDT non latch signal relay, 12VDC&lt;/b&gt;&lt;hr /&gt;
+<deviceset name="V23079A1001B301" prefix="K" urn="urn:adsk.eagle:component:9592881/1">
+<description>&lt;b&gt;V23079-A1001-B301 - DPDT non latch signal relay, 5VDC&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
-&lt;i&gt;Description: &lt;/i&gt;V23079-A1003-B301 - DPDT non latch signal relay, through hole, 12VDC, 2A Rated current.
+&lt;i&gt;Description: &lt;/i&gt;V23079-A1003-B301 - DPDT non latch signal relay, through hole, 5VDC, 2A Rated current.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;i&gt;Links: &lt;/i&gt;
