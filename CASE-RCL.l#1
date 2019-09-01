@@ -1408,7 +1408,7 @@
 <packageinstance name="SEK_P5_D10"/>
 </packageinstances>
 </package3d>
-<package3d name="EIA_6032-28" urn="urn:adsk.eagle:package:5402996/3" type="model">
+<package3d name="EIA_6032-28" urn="urn:adsk.eagle:package:5402996/1" type="box">
 <description>&lt;b&gt;EIA 6032-28 Taltalum CAPACITATOR&lt;/b&gt;
 
 &lt;a href="http://www.farnell.com/datasheets/2206954.pdf?_ga=2.146371188.1951585514.1537363662-1535130828.1530438260"&gt;Datasheet1&lt;/a&gt;
@@ -2868,7 +2868,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="KEMET_C" urn="urn:adsk.eagle:component:5403007/2" locally_modified="yes" prefix="C" uservalue="yes">
+<deviceset name="KEMET_C" urn="urn:adsk.eagle:component:5403007/2" prefix="C" uservalue="yes">
 <description>&lt;b&gt;KEMET C Size Taltalum Capacitator&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; Size C taltalum capacitor from KEMET. (EIA size 6032-28) 
@@ -2899,7 +2899,7 @@
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5402996/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5402996/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

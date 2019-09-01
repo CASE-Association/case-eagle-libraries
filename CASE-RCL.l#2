@@ -1240,19 +1240,19 @@
 <packageinstance name="EIA_7360-38"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:5332306/3" type="model">
+<package3d name="C0402" urn="urn:adsk.eagle:package:5332306/2" type="model">
 <description>&lt;b&gt;Chip CAPACITOR 0402 (1005 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:5332303/3" type="model">
+<package3d name="C1206" urn="urn:adsk.eagle:package:5332303/2" type="model">
 <description>&lt;b&gt;Chip CAPACITOR 1206 (3216 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C1206"/>
 </packageinstances>
 </package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:5332309/4" type="model">
+<package3d name="R0603" urn="urn:adsk.eagle:package:5332309/2" type="model">
 <description>&lt;b&gt;Chip RESISTOR 0603 (1608 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R0603"/>
@@ -1273,7 +1273,7 @@
 <packageinstance name="3310C"/>
 </packageinstances>
 </package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:5332305/5" type="model">
+<package3d name="C0603" urn="urn:adsk.eagle:package:5332305/4" type="model">
 <description>&lt;b&gt;Chip CAPACITOR 0603 (1608 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C0603"/>
@@ -1297,7 +1297,7 @@
 <packageinstance name="WE-PD2_1054"/>
 </packageinstances>
 </package3d>
-<package3d name="PANASONIC_B" urn="urn:adsk.eagle:package:5402999/2" type="model">
+<package3d name="PANASONIC_B" urn="urn:adsk.eagle:package:5402999/1" type="box">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B&lt;/b&gt;
 
 &lt;a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C718.pdf"&gt;Datasheet1&lt;/a&gt;
@@ -1320,7 +1320,7 @@
 <packageinstance name="WE-MK_0603"/>
 </packageinstances>
 </package3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:5332310/3" type="model">
+<package3d name="R0805" urn="urn:adsk.eagle:package:5332310/2" type="model">
 <description>&lt;b&gt;Chip RESISTOR 0805 (2012 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R0805"/>
@@ -1375,7 +1375,7 @@
 <packageinstance name="EIA_7343-20"/>
 </packageinstances>
 </package3d>
-<package3d name="R1206" urn="urn:adsk.eagle:package:5332308/3" type="model">
+<package3d name="R1206" urn="urn:adsk.eagle:package:5332308/2" type="model">
 <description>&lt;b&gt;Chip RESISTOR 1206 (3216 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R1206"/>
@@ -1408,7 +1408,7 @@
 <packageinstance name="SEK_P5_D10"/>
 </packageinstances>
 </package3d>
-<package3d name="EIA_6032-28" urn="urn:adsk.eagle:package:5402996/3" type="model">
+<package3d name="EIA_6032-28" urn="urn:adsk.eagle:package:5402996/1" type="box">
 <description>&lt;b&gt;EIA 6032-28 Taltalum CAPACITATOR&lt;/b&gt;
 
 &lt;a href="http://www.farnell.com/datasheets/2206954.pdf?_ga=2.146371188.1951585514.1537363662-1535130828.1530438260"&gt;Datasheet1&lt;/a&gt;
@@ -1436,13 +1436,13 @@
 <packageinstance name="WE-PD3_L"/>
 </packageinstances>
 </package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:5332304/3" type="model">
+<package3d name="C0805" urn="urn:adsk.eagle:package:5332304/2" type="model">
 <description>&lt;b&gt;Chip CAPACITOR 0805 (2012 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C0805"/>
 </packageinstances>
 </package3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:5332307/3" type="model">
+<package3d name="R0402" urn="urn:adsk.eagle:package:5332307/2" type="model">
 <description>&lt;b&gt;Chip RESISTOR 0402 (1005 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R0402"/>
@@ -1740,7 +1740,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332303/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332303/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1779,7 +1779,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1861,7 +1861,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332305/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332305/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1979,7 +1979,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332306/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332306/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2018,7 +2018,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332310/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332310/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2054,7 +2054,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332310/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332310/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2110,7 +2110,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PANASONIC_B" urn="urn:adsk.eagle:component:5403009/2" locally_modified="yes" prefix="C" uservalue="yes">
+<deviceset name="PANASONIC_B" urn="urn:adsk.eagle:component:5403009/2" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Panasonic VS Type Aluminum Electrolytic SMD Capacitors Size B - (TEAPO D4) &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; Size B of VS type SMD capacitor from Panasonic. Diameter of cap = 4mm. (TEAPO D4)
@@ -2148,7 +2148,7 @@
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5402999/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5402999/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2531,7 +2531,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332308/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332308/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2780,7 +2780,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332307/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332307/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2860,7 +2860,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332307/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332307/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2868,7 +2868,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="KEMET_C" urn="urn:adsk.eagle:component:5403007/2" locally_modified="yes" prefix="C" uservalue="yes">
+<deviceset name="KEMET_C" urn="urn:adsk.eagle:component:5403007/2" prefix="C" uservalue="yes">
 <description>&lt;b&gt;KEMET C Size Taltalum Capacitator&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; Size C taltalum capacitor from KEMET. (EIA size 6032-28) 
@@ -2899,7 +2899,7 @@
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5402996/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5402996/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2976,7 +2976,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332304/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332304/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3750,7 +3750,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-CBF_0603" urn="urn:adsk.eagle:component:5421297/3" locally_modified="yes" prefix="FP" uservalue="yes">
+<deviceset name="WE-CBF_0603" urn="urn:adsk.eagle:component:5421297/3" prefix="FP" uservalue="yes">
 <description>&lt;b&gt;Würth Electronics Size 0603 Ferrite Pearls&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; 0603 Size ferrite pearls from Würth Electronics.
@@ -3781,7 +3781,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3789,7 +3789,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BLM18A" urn="urn:adsk.eagle:component:5421299/3" locally_modified="yes" prefix="FP" uservalue="yes">
+<deviceset name="BLM18A" urn="urn:adsk.eagle:component:5421299/3" prefix="FP" uservalue="yes">
 <description>&lt;b&gt;muRata BLM18A Series Size 0603 Ferrite Pearls&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; BLM18A Series 0603 Size ferrite pearls from muRata.
@@ -3822,7 +3822,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3830,7 +3830,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603" urn="urn:adsk.eagle:component:5332325/3" locally_modified="yes" prefix="R" uservalue="yes">
+<deviceset name="R0603" urn="urn:adsk.eagle:component:5332325/3" prefix="R" uservalue="yes">
 <description>&lt;b&gt;&lt;b&gt;Standard Chip RESISTOR 0603 (1608 Metric)&lt;/b&gt;
 &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
@@ -3858,7 +3858,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332309/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3894,7 +3894,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5332305/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5332305/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
