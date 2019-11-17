@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -558,7 +559,7 @@
 <text x="-4.56" y="-2.29" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="5.826" y="-2.29" size="1.27" layer="25" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="KMR621NGLFS" urn="urn:adsk.eagle:footprint:7911984/1">
+<package name="KMR621NGLFS" urn="urn:adsk.eagle:footprint:7911984/2">
 <description>&lt;i&gt;Links: &lt;/i&gt;
 &lt;a href="http://www.farnell.com/datasheets/2706242.pdf?_ga=2.40597409.2071720333.1546461288-1112771566.1525371275"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="-2" y="-0.8" dx="1" dy="1" layer="1"/>
@@ -566,11 +567,9 @@
 <smd name="3" x="-2" y="0.8" dx="1" dy="1" layer="1"/>
 <smd name="4" x="2" y="0.8" dx="1" dy="1" layer="1"/>
 <wire x1="-2" y1="-0.25" x2="-2" y2="0.25" width="0.127" layer="21"/>
-<wire x1="-1" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="2" y1="-0.25" x2="2" y2="0.25" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.75" x2="-1" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.29" x2="-1.5" y2="-1.29" width="0.127" layer="21"/>
 <text x="-2.5" y="1.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-2.75" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -742,7 +741,7 @@
 <packageinstance name="DIPSWITCH_2P_SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="KMR621NGLFS" urn="urn:adsk.eagle:package:7911989/1" type="box">
+<package3d name="KMR621NGLFS" urn="urn:adsk.eagle:package:7911989/4" type="model">
 <description>&lt;i&gt;Links: &lt;/i&gt;
 &lt;a href="http://www.farnell.com/datasheets/2706242.pdf?_ga=2.40597409.2071720333.1546461288-1112771566.1525371275"&gt;Datasheet&lt;/a&gt;</description>
 <packageinstances>
@@ -998,7 +997,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIPSWITCH_4P" prefix="S" urn="urn:adsk.eagle:component:7893498/2">
+<deviceset name="DIPSWITCH_4P" urn="urn:adsk.eagle:component:7893498/2" prefix="S">
 <description>&lt;b&gt;Standard 4 position DIP-Switch&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;Standard 4 position DIP-Switch in DIP/SIP and SMD package.
@@ -1063,7 +1062,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIPSWITCH_8P" prefix="S" urn="urn:adsk.eagle:component:7893499/2">
+<deviceset name="DIPSWITCH_8P" urn="urn:adsk.eagle:component:7893499/2" prefix="S">
 <description>&lt;b&gt;Standard 8 position DIP-Switch&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;Standard 8 position DIP-Switch in DIP/SIP and SMD package.
@@ -1144,7 +1143,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JS202011CQN" prefix="S" urn="urn:adsk.eagle:component:7911994/1">
+<deviceset name="JS202011CQN" urn="urn:adsk.eagle:component:7911994/1" prefix="S">
 <description>&lt;b&gt;C&amp;K JS202011CQN and CQN Slide DPDT switches (DIP)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;C&amp;K JS202011CQN (Vertical) and CQN (Angled) Slide DPDT switches in DIP package.
@@ -1205,7 +1204,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SKHHA/D" prefix="S" urn="urn:adsk.eagle:component:7893269/2">
+<deviceset name="SKHHA/D" urn="urn:adsk.eagle:component:7893269/2" prefix="S">
 <description>&lt;b&gt;ALPS SKHHA/D Tactile SPST switches (DIP)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;ALPS SKHHA/D Tactile SPST switches in DIP package.
@@ -1252,7 +1251,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSAJ120100" prefix="S" urn="urn:adsk.eagle:component:7893271/3">
+<deviceset name="SSAJ120100" urn="urn:adsk.eagle:component:7893271/3" prefix="S">
 <description>&lt;b&gt;ALPS SSAJ120100 Slide SPDT switch (SMD)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;ALPS SSAJ120100 Tactile SPST switch in SMD package.
@@ -1298,7 +1297,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="B3F-4050" prefix="S" urn="urn:adsk.eagle:component:7893270/2">
+<deviceset name="B3F-4050" urn="urn:adsk.eagle:component:7893270/2" prefix="S">
 <description>&lt;b&gt;OMRON B3F-4050 Tactile SPST switch (DIP)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;OMRON B3F-4050 Tactile SPST switch in DIP package.
@@ -1357,7 +1356,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SKHHL/N" prefix="S" urn="urn:adsk.eagle:component:7893268/2">
+<deviceset name="SKHHL/N" urn="urn:adsk.eagle:component:7893268/2" prefix="S">
 <description>&lt;b&gt;ALPS SKHHL/N Horizontal tactile SPST switches (DIP)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;ALPS SKHHL/N Horizontal tactile SPST switches in DIP package.
@@ -1400,7 +1399,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SKQGAFE010" prefix="S" urn="urn:adsk.eagle:component:7893272/2">
+<deviceset name="SKQGAFE010" urn="urn:adsk.eagle:component:7893272/2" prefix="S">
 <description>&lt;b&gt;ALPS SKQGAFE010 Tactile SPST switch (SMD)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;ALPS SKQGAFE010 Tactile SPST switch in SMD package.
@@ -1447,7 +1446,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIPSWITCH_2P" prefix="S" urn="urn:adsk.eagle:component:7893500/2">
+<deviceset name="DIPSWITCH_2P" urn="urn:adsk.eagle:component:7893500/2" prefix="S">
 <description>&lt;b&gt;Standard 2 position DIP-Switch&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;Standard 2 position DIP-Switch in DIP/SIP and SMD package.
@@ -1504,7 +1503,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="KMR621NGLFS" prefix="S" urn="urn:adsk.eagle:component:7911993/2">
+<deviceset name="KMR621NGLFS" urn="urn:adsk.eagle:component:7911993/2" locally_modified="yes" prefix="S">
 <description>&lt;b&gt;C&amp;K KMR621NG LFS Tactile SPST switch (SMD)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;C&amp;K KMR621NG LFS Tactile SPST switch SMD package.
@@ -1537,7 +1536,7 @@
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7911989/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7911989/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1545,7 +1544,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="KSEK43GLFS" prefix="S" urn="urn:adsk.eagle:component:7911992/2">
+<deviceset name="KSEK43GLFS" urn="urn:adsk.eagle:component:7911992/2" prefix="S">
 <description>&lt;b&gt;C&amp;K KSEK43G LFS Tactile SPST switch (SMD)&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt;C&amp;K KSEK43G LFS Tactile SPST switch SMD package.
