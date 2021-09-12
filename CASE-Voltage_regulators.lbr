@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.3.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -400,7 +401,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="LP2992IM5-3.3" urn="urn:adsk.eagle:symbol:7882737/2">
+<symbol name="LP2992IM5-3.3">
 <pin name="VIN" x="-17.78" y="2.54" length="middle" direction="pwr"/>
 <pin name="ON/~OFF" x="-17.78" y="-2.54" length="middle" direction="in"/>
 <pin name="BYPASS" x="-17.78" y="-5.08" length="middle" direction="in"/>
@@ -413,7 +414,7 @@
 <text x="-4.4704" y="9.271" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.6388" y="-18.7452" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="MCP18" urn="urn:adsk.eagle:symbol:7882743/1">
+<symbol name="MCP18">
 <pin name="VIN" x="-15.24" y="5.08" length="middle" direction="pwr"/>
 <pin name="!SHDN" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="GND" x="-15.24" y="-10.16" length="middle" direction="pwr"/>
@@ -426,7 +427,7 @@
 <text x="-5.0292" y="8.7122" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.842" y="-15.494" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LM2940T-12.0" urn="urn:adsk.eagle:symbol:7882742/1">
+<symbol name="LM2940T-12.0">
 <pin name="IN" x="-17.78" y="-2.54" length="middle" direction="in"/>
 <pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pas"/>
 <pin name="OUT" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
@@ -437,7 +438,7 @@
 <text x="-5.4864" y="4.5466" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-4.572" y="-12.9032" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LP2992IM5-5.0" urn="urn:adsk.eagle:symbol:7882740/1">
+<symbol name="LP2992IM5-5.0">
 <pin name="VIN" x="-17.78" y="2.54" length="middle" direction="pwr"/>
 <pin name="ON/~OFF" x="-17.78" y="-2.54" length="middle" direction="in"/>
 <pin name="BYPASS" x="-17.78" y="-5.08" length="middle" direction="in"/>
@@ -450,7 +451,7 @@
 <text x="-4.4704" y="9.271" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.6388" y="-18.7452" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="TPS73201DBVR" urn="urn:adsk.eagle:symbol:7882741/1">
+<symbol name="TPS73201DBVR">
 <pin name="IN" x="-17.78" y="5.08" length="middle" direction="pwr"/>
 <pin name="EN" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="NR/FB" x="-17.78" y="-5.08" length="middle" direction="pas"/>
@@ -463,7 +464,7 @@
 <text x="-5.842" y="11.9888" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-2.1844" y="-18.4912" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LD1117V50" urn="urn:adsk.eagle:symbol:7882738/1">
+<symbol name="LD1117V50">
 <pin name="VIN" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="VOUT" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
 <pin name="GND" x="0" y="-10.16" length="middle" direction="pas" rot="R90"/>
@@ -474,7 +475,7 @@
 <text x="-5.0292" y="6.731" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.8166" y="-15.3924" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LM1117IMP-3.3" urn="urn:adsk.eagle:symbol:7882736/1">
+<symbol name="LM1117IMP-3.3">
 <pin name="VIN" x="-20.32" y="0" length="middle" direction="in"/>
 <pin name="ADJ/GND" x="-20.32" y="-5.08" length="middle" direction="pas"/>
 <pin name="VOUT_2" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
@@ -486,7 +487,7 @@
 <text x="-4.6228" y="6.4008" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.4864" y="-12.6746" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="MCP1702-3302E/TO" urn="urn:adsk.eagle:symbol:7882734/1">
+<symbol name="MCP1702-3302E/TO">
 <pin name="VIN" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pas"/>
 <pin name="VOUT" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
@@ -497,7 +498,7 @@
 <text x="-4.8006" y="6.731" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.8166" y="-13.5636" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LD1117S33TR" urn="urn:adsk.eagle:symbol:8213258/1">
+<symbol name="LD1117S33TR">
 <pin name="VIN" x="-15.24" y="-2.54" length="middle" direction="in"/>
 <pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pas"/>
 <pin name="VOUT_2" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
@@ -509,7 +510,7 @@
 <text x="-4.5974" y="3.8608" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.5372" y="-13.3604" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="MCP1702-5002E/TO" urn="urn:adsk.eagle:symbol:7882733/1">
+<symbol name="MCP1702-5002E/TO">
 <pin name="VIN" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pas"/>
 <pin name="VOUT" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
@@ -520,7 +521,7 @@
 <text x="-4.5212" y="5.969" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-6.2738" y="-12.6492" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LD1117V33C" urn="urn:adsk.eagle:symbol:7882735/1">
+<symbol name="LD1117V33C">
 <pin name="VIN" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="VOUT" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
 <pin name="GND" x="0" y="-10.16" length="middle" direction="pas" rot="R90"/>
@@ -531,7 +532,7 @@
 <text x="-5.0292" y="6.731" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.8166" y="-15.3924" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="LD1117S50CTR" urn="urn:adsk.eagle:symbol:7882739/1">
+<symbol name="LD1117S50CTR">
 <pin name="VIN" x="-15.24" y="-2.54" length="middle" direction="in"/>
 <pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pas"/>
 <pin name="VOUT_2" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
@@ -545,7 +546,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP1804T-C002I/OT" prefix="U" urn="urn:adsk.eagle:component:7882766/2">
+<deviceset name="MCP1804T-C002I/OT" prefix="U">
 <description>&lt;b&gt;MCP1804T-C002I/OT, 12V LDO voltage regulator, SOT-23-5&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MCP1804T-C002I/OT, 12V LDO voltage regulator in SOT-23-5 package
@@ -644,7 +645,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LP2992IM5-3.3" prefix="VR" urn="urn:adsk.eagle:component:7882760/3">
+<deviceset name="LP2992IM5-3.3" prefix="VR">
 <description>&lt;b&gt;LP2992IM5-3.3/NOPB, 3.3V LDO voltage regulator, SOT-23-5&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LP2992IM5-3.3/NOPB, 3.3V LDO voltage regulator in SOT-23-5 package
@@ -701,7 +702,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2940T-12.0" prefix="VR" urn="urn:adsk.eagle:component:7882765/2">
+<deviceset name="LM2940T-12.0" prefix="VR">
 <description>&lt;b&gt;LM2940T-12.0, 12V LDO voltage regulator, TO-220-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LM2940T-12.0, 12V LDO voltage regulator in TO-220-3 package
@@ -756,7 +757,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LP2992IM5-5.0" prefix="VR" urn="urn:adsk.eagle:component:7882763/2">
+<deviceset name="LP2992IM5-5.0" prefix="VR">
 <description>&lt;b&gt;LP2992IM5-5.0/NOPB, 5V LDO voltage regulator, SOT-23-5&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LP2992IM5-5.0/NOPB, 5V LDO voltage regulator in SOT-23-5 package
@@ -813,7 +814,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117S33TR" prefix="U" urn="urn:adsk.eagle:component:8213259/1">
+<deviceset name="LD1117S33TR" prefix="U">
 <description>&lt;b&gt;LD1117S33TR, 3.3V LDO voltage regulator, SOT-223-4&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117S33TR, 3.3V LDO voltage regulator in SOT-223-3 package
@@ -869,7 +870,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2940IMP-12/NOPB" prefix="VR" urn="urn:adsk.eagle:component:7882755/3">
+<deviceset name="LM2940IMP-12/NOPB" prefix="VR">
 <description>IC, LDO VOLT REG, 12V, 1A
 &lt;b&gt;LM2940IMP-12/NOPB, 12V LDO voltage regulator, SOT-223-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
@@ -919,7 +920,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117S50CTR" prefix="VR" urn="urn:adsk.eagle:component:7882762/3">
+<deviceset name="LD1117S50CTR" prefix="VR">
 <description>&lt;b&gt;LD1117S50CTR, 5V LDO voltage regulator, SOT-223-4&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117S50CTR, 5V LDO voltage regulator in SOT-223-3 package
@@ -975,7 +976,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117ASTR" prefix="VR" urn="urn:adsk.eagle:component:7882754/2">
+<deviceset name="LD1117ASTR" prefix="VR">
 <description>&lt;b&gt;LD1117ASTR, Adjustable LDO voltage regulator, SOT-223-4&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117ASTR, Adjustable LDO voltage regulator in SOT-223-4 package
@@ -1031,7 +1032,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117V50" prefix="VR" urn="urn:adsk.eagle:component:7882761/2">
+<deviceset name="LD1117V50" prefix="VR">
 <description>&lt;b&gt;LD1117V50, 5V LDO voltage regulator, TO-220-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117V50, 5V LDO voltage regulator in TO-220-3 package
@@ -1086,7 +1087,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TL750L12CLP" prefix="VR" urn="urn:adsk.eagle:component:7882752/2">
+<deviceset name="TL750L12CLP" prefix="VR">
 <description>&lt;b&gt;TL750L12CLP, 12V LDO voltage regulator, TO-92-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; TL750L12CLP, 12V LDO voltage regulator in TO-92-3 package
@@ -1141,7 +1142,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP1702-5002E/TO" prefix="VR" urn="urn:adsk.eagle:component:7882756/2">
+<deviceset name="MCP1702-5002E/TO" prefix="VR">
 <description>&lt;b&gt;MCP1702-5002E/TO, 5V LDO voltage regulator, TO-92-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MCP1702-5002E/TO, 5V LDO voltage regulator in TO-92-3 package
@@ -1196,7 +1197,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117V" prefix="VR" urn="urn:adsk.eagle:component:7882753/2">
+<deviceset name="LD1117V" prefix="VR">
 <description>&lt;b&gt;LD1117V, Adjustable LDO voltage regulator, TO-220-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117V, Adjustable LDO voltage regulator in TO-220-3 package
@@ -1251,7 +1252,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM1117IMP-3.3" prefix="VR" urn="urn:adsk.eagle:component:7882759/2">
+<deviceset name="LM1117IMP-3.3" prefix="VR">
 <description>&lt;b&gt;LD1117IMP-3.3, 3.3V LDO voltage regulator, SOT-223-4&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117IMP-3.3, 3.3V LDO voltage regulator in SOT-223-3 package
@@ -1307,7 +1308,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117V33C" prefix="VR" urn="urn:adsk.eagle:component:7882758/2">
+<deviceset name="LD1117V33C" prefix="VR">
 <description>&lt;b&gt;LD1117V33C, 3.3V LDO voltage regulator, TO-220-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; LD1117V33C, 3.3V LDO voltage regulator in TO-220-3 package
@@ -1362,7 +1363,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP1702-3302E/TO" prefix="VR" urn="urn:adsk.eagle:component:7882757/2">
+<deviceset name="MCP1702-3302E/TO" prefix="VR">
 <description>&lt;b&gt;MCP1702-3302E/TO, 3.3V LDO voltage regulator, TO-92-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MCP1702-3302E/TO, 3.3V LDO voltage regulator in TO-92-3 package
@@ -1417,7 +1418,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS73201DBVR" prefix="VR" urn="urn:adsk.eagle:component:7882764/2">
+<deviceset name="TPS73201DBVR" prefix="VR">
 <description>&lt;b&gt;TPS73201DBVR, Adjustable LDO voltage regulator, SOT-23-5&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; TPS73201DBVR, Adjustable LDO voltage regulator in SOT-23-5 package

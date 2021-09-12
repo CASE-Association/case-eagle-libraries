@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.1.3">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -106,7 +107,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:5349131/1">
+<symbol name="FUSE">
 <wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
@@ -117,7 +118,7 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="PTC" urn="urn:adsk.eagle:symbol:5312710/1">
+<symbol name="PTC">
 <wire x1="2.54" y1="-0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
@@ -131,7 +132,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OMNI-BLOK_154" prefix="F" uservalue="yes" urn="urn:adsk.eagle:component:5349133/2">
+<deviceset name="OMNI-BLOK_154" prefix="F" uservalue="yes">
 <description>&lt;b&gt;Littlefuse OMNI-BLOK 154 Series Fuses &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; OMNI-BLOK 154 Series fast acting fuses from Littlefuse.
@@ -186,7 +187,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="OZCJ" prefix="F" urn="urn:adsk.eagle:component:5312712/2">
+<deviceset name="OZCJ" prefix="F">
 <description>&lt;b&gt;bel OZCJ Series PTC Fuses &lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; OZCJ Series resettable PTC fuses from bel.

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.4.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -318,7 +319,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="USB3" urn="urn:adsk.eagle:symbol:7089372/1">
+<symbol name="USB3">
 <wire x1="-13.766" y1="-0.178" x2="-15.916" y2="-0.178" width="0.254" layer="94"/>
 <wire x1="-15.916" y1="-0.178" x2="-16.666" y2="-0.178" width="0.254" layer="94"/>
 <wire x1="-17.966" y1="1.422" x2="-16.966" y2="1.422" width="0.254" layer="94"/>
@@ -357,7 +358,7 @@
 <pin name="STDA_SSTX-" x="7.62" y="-6.35" visible="pin" length="short" rot="R180"/>
 <pin name="STDA_SSTX+" x="7.62" y="-8.89" visible="pin" length="short" rot="R180"/>
 </symbol>
-<symbol name="USB2" urn="urn:adsk.eagle:symbol:7089373/2">
+<symbol name="USB2">
 <wire x1="-10.2" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
@@ -395,7 +396,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOLEX_105017-0001" prefix="USB" urn="urn:adsk.eagle:component:10691128/3">
+<deviceset name="MOLEX_105017-0001" prefix="USB">
 <description>&lt;b&gt;MOLEX 105017-0001 - USB 2.0, B micro-type connector, Horizontal&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MOLEX 105017-0001 - USB 2.0, B micro-type connector, Horizontal version
@@ -438,7 +439,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOLEX_48408-0003" prefix="USB" urn="urn:adsk.eagle:component:7089377/1">
+<deviceset name="MOLEX_48408-0003" prefix="USB">
 <description>&lt;b&gt;MOLEX 48408-0003 - USB 3.0, A-type connector, Vertical&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MOLEX 48408-0003 - USB 3.0, A-type connector, Vertical version
@@ -485,7 +486,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOLEX_105133-0011" prefix="USB" urn="urn:adsk.eagle:component:10708134/1">
+<deviceset name="MOLEX_105133-0011" prefix="USB">
 <description>&lt;b&gt;MOLEX 105133-0011 - USB 2.0, B micro-type connector, Vertical&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MOLEX 105133-0011 - USB 2.0, B micro-type connector, Vertical version
@@ -528,7 +529,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOLEX_48393-0003" prefix="USB" urn="urn:adsk.eagle:component:7089376/1">
+<deviceset name="MOLEX_48393-0003" prefix="USB">
 <description>&lt;b&gt;MOLEX 48393-0003 - USB 3.0, A-type connector, Horizontal&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; MOLEX 48393-0003 - USB 3.0, A-type connector, Horizontal version

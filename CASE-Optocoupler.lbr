@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.3.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -93,7 +94,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="OPTOCOUPLER" urn="urn:adsk.eagle:symbol:10240759/1">
+<symbol name="OPTOCOUPLER">
 <pin name="1A" x="-2.54" y="12.7" visible="pad" length="middle" rot="R270"/>
 <pin name="2C" x="-2.54" y="-10.16" visible="pad" length="middle" rot="R90"/>
 <pin name="4C" x="7.62" y="12.7" visible="pad" length="middle" rot="R270"/>
@@ -133,7 +134,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VO618A-3" prefix="Q" urn="urn:adsk.eagle:component:10240762/1">
+<deviceset name="VO618A-3" prefix="Q">
 <description>&lt;b&gt;VO618A-3&lt;/b&gt;&lt;hr /&gt;
 &lt;br /&gt;
 &lt;i&gt;Description: &lt;/i&gt; VISHAY VO618A-3 Optocoupler in DIP-4 package.
@@ -184,7 +185,7 @@ Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
 </note>
-<note severity="warning" version="8.3">
+<note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
